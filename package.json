@@ -1,7 +1,7 @@
 {
   "name": "sort-expo-appjson",
   "description": "CLI tool that sort Expo app.json.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Kazuya Hara <iam@kazuyahara.dev>",
   "bin": {
     "seajson": "./dist/index.js",
@@ -65,7 +65,7 @@
       "@semantic-release/changelog",
       "@semantic-release/release-notes-generator",
       "@semantic-release/github",
-      "@semantic-release/commit-analyzer",
+      "@semantic-release/npm",
       [
         "@semantic-release/git",
         {
