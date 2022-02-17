@@ -16,6 +16,20 @@ npm i -g sort-expo-appjson
 sort-expo-appjson # or seajson
 ```
 
+### Options
+
+Specify `app.json` path.
+
+```sh
+sort-expo-appjson -p src/app.json
+```
+
+Sort with specified EXPO SDK version. As default, it will use the latest version.
+
+```sh
+sort-expo-appjson -v 44.0.0
+```
+
 ## Author
 
 [@KazuyaHara](https://github.com/KazuyaHara)
