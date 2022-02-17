@@ -1,0 +1,218 @@
+[
+  { "name": "name" },
+  { "name": "description" },
+  { "name": "slug" },
+  { "name": "owner" },
+  { "name": "currentFullName" },
+  { "name": "originalFullName" },
+  { "name": "privacy" },
+  { "name": "sdkVersion" },
+  { "name": "runtimeVersion" },
+  { "name": "version" },
+  { "name": "platforms" },
+  { "name": "githubUrl" },
+  { "name": "orientation" },
+  { "name": "userInterfaceStyle" },
+  { "name": "backgroundColor" },
+  { "name": "primaryColor" },
+  { "name": "icon" },
+  {
+    "name": "notification",
+    "children": [
+      { "name": "icon" },
+      { "name": "color" },
+      { "name": "iosDisplayInForeground" },
+      { "name": "androidMode" },
+      { "name": "androidCollapsedTitle" }
+    ]
+  },
+  { "name": "appKey" },
+  { "name": "androidStatusBarColor" },
+  {
+    "name": "androidStatusBar",
+    "children": [
+      { "name": "barStyle" },
+      { "name": "backgroundColor" },
+      { "name": "hidden" },
+      { "name": "translucent" }
+    ]
+  },
+  {
+    "name": "androidNavigationBar",
+    "children": [{ "name": "visible" }, { "name": "barStyle" }, { "name": "backgroundColor" }]
+  },
+  { "name": "developmentClient", "children": [{ "name": "silentLaunch" }] },
+  { "name": "scheme" },
+  { "name": "entryPoint" },
+  { "name": "extra", "children": [] },
+  { "name": "packagerOpts", "children": [] },
+  { "name": "ignoreNodeModulesValidation" },
+  { "name": "nodeModulesPath" },
+  {
+    "name": "updates",
+    "children": [
+      { "name": "enabled" },
+      { "name": "checkAutomatically" },
+      { "name": "fallbackToCacheTimeout" }
+    ]
+  },
+  { "name": "locales", "children": [] },
+  { "name": "facebookAppId" },
+  { "name": "facebookAutoInitEnabled" },
+  { "name": "facebookAutoLogAppEventsEnabled" },
+  { "name": "facebookAdvertiserIDCollectionEnabled" },
+  { "name": "facebookDisplayName" },
+  { "name": "facebookScheme" },
+  { "name": "isDetached" },
+  { "name": "detach", "children": [] },
+  { "name": "assetBundlePatterns" },
+  {
+    "name": "splash",
+    "children": [{ "name": "backgroundColor" }, { "name": "resizeMode" }, { "name": "image" }]
+  },
+  {
+    "name": "ios",
+    "children": [
+      { "name": "publishManifestPath" },
+      { "name": "publishBundlePath" },
+      { "name": "bundleIdentifier" },
+      { "name": "buildNumber" },
+      { "name": "backgroundColor" },
+      { "name": "icon" },
+      { "name": "merchantId" },
+      { "name": "appStoreUrl" },
+      {
+        "name": "config",
+        "children": [
+          { "name": "branch", "children": [{ "name": "apiKey" }] },
+          { "name": "usesNonExemptEncryption" },
+          { "name": "googleMapsApiKey" },
+          { "name": "googleMobileAdsAppId" },
+          { "name": "googleMobileAdsAutoInit" },
+          { "name": "googleSignIn", "children": [{ "name": "reservedClientId" }] }
+        ]
+      },
+      { "name": "isRemoteJSEnabled" },
+      { "name": "googleServicesFile" },
+      { "name": "loadJSInBackgroundExperimental" },
+      { "name": "supportsTablet" },
+      { "name": "isTabletOnly" },
+      { "name": "requireFullScreen" },
+      { "name": "userInterfaceStyle" },
+      { "name": "infoPlist", "children": [] },
+      { "name": "entitlements", "children": [] },
+      { "name": "associatedDomains" },
+      { "name": "usesIcloudStorage" },
+      { "name": "usesAppleSignIn" },
+      { "name": "accessesContactNotes" },
+      {
+        "name": "splash",
+        "children": [
+          { "name": "xib" },
+          { "name": "backgroundColor" },
+          { "name": "resizeMode" },
+          { "name": "image" },
+          { "name": "tabletImage" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "android",
+    "children": [
+      { "name": "enableDangerousExperimentalLeanBuilds" },
+      { "name": "publishManifestPath" },
+      { "name": "publishBundlePath" },
+      { "name": "package" },
+      { "name": "versionCode" },
+      { "name": "backgroundColor" },
+      { "name": "userInterfaceStyle" },
+      { "name": "useNextNotificationsApi" },
+      { "name": "icon" },
+      {
+        "name": "adaptiveIcon",
+        "children": [
+          { "name": "foregroundImage" },
+          { "name": "backgroundImage" },
+          { "name": "backgroundColor" }
+        ]
+      },
+      { "name": "playStoreUrl" },
+      { "name": "permissions" },
+      { "name": "googleServicesFile" },
+      {
+        "name": "config",
+        "children": [
+          { "name": "branch", "children": [{ "name": "apiKey" }] },
+          { "name": "googleMaps", "children": [{ "name": "apiKey" }] },
+          { "name": "googleMobileAdsAppId" },
+          { "name": "googleMobileAdsAutoInit" },
+          {
+            "name": "googleSignIn",
+            "children": [{ "name": "apiKey" }, { "name": "certificateHash" }]
+          }
+        ]
+      },
+      {
+        "name": "splash",
+        "children": [
+          { "name": "backgroundColor" },
+          { "name": "resizeMode" },
+          { "name": "image" },
+          { "name": "mdpi" },
+          { "name": "hdpi" },
+          { "name": "xhdpi" },
+          { "name": "xxhdpi" },
+          { "name": "xxxhdpi" }
+        ]
+      },
+      { "name": "intentFilters" },
+      { "name": "allowBackup" },
+      { "name": "softwareKeyboardLayoutMode" }
+    ]
+  },
+  {
+    "name": "web",
+    "children": [
+      { "name": "favicon" },
+      { "name": "name" },
+      { "name": "shortName" },
+      { "name": "lang" },
+      { "name": "scope" },
+      { "name": "themeColor" },
+      { "name": "description" },
+      { "name": "dir" },
+      { "name": "display" },
+      { "name": "startUrl" },
+      { "name": "orientation" },
+      { "name": "backgroundColor" },
+      { "name": "barStyle" },
+      { "name": "preferRelatedApplications" },
+      { "name": "dangerous", "children": [] },
+      {
+        "name": "splash",
+        "children": [{ "name": "backgroundColor" }, { "name": "resizeMode" }, { "name": "image" }]
+      },
+      {
+        "name": "config",
+        "children": [
+          {
+            "name": "firebase",
+            "children": [
+              { "name": "apiKey" },
+              { "name": "authDomain" },
+              { "name": "databaseURL" },
+              { "name": "projectId" },
+              { "name": "storageBucket" },
+              { "name": "messagingSenderId" },
+              { "name": "appId" },
+              { "name": "measurementId" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  { "name": "hooks", "children": [{ "name": "postPublish" }, { "name": "postExport" }] },
+  { "name": "experiments", "children": [{ "name": "turboModules" }] }
+]

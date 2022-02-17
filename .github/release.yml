@@ -1,0 +1,30 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    name: Release new version
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🏗 Checkout
+        uses: actions/checkout@v2
+
+      - name: 🏗 Setup Node v16
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - name: 📦 Install dependencies
+        run: yarn install
+
+      - name: 🚀 Release
+        id: release
+        run: |
+          npx tsc
+          npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

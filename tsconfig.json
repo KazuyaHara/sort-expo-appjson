@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "es2016",
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
