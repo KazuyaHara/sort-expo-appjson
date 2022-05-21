@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/KazuyaHara/sort-expo-appjson/compare/v1.0.1...v1.1.0) (2022-05-21)
+
+
+### Features
+
+* Expo SDK 45 ([#32](https://github.com/KazuyaHara/sort-expo-appjson/issues/32)) ([b47c454](https://github.com/KazuyaHara/sort-expo-appjson/commit/b47c454d476f28d25d5397cc763af957edec00c2))
+
 ## [1.0.1](https://github.com/KazuyaHara/sort-expo-appjson/compare/v1.0.0...v1.0.1) (2022-02-17)
 
 

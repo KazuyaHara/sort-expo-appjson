@@ -1,7 +1,7 @@
 {
   "name": "sort-expo-appjson",
   "description": "CLI tool that sort Expo app.json.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Kazuya Hara <iam@kazuyahara.dev>",
   "bin": {
     "seajson": "./dist/index.js",
