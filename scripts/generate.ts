@@ -8,16 +8,20 @@ import { prompt, QuestionCollection } from "inquirer";
 
 import { versions } from "../src/versions";
 
-const mapKeys = (object: { [x: string]: any }, definitions: { [x: string]: any }): Array<any> =>
-  Object.keys(object).map((key) => {
-    const { properties, type, $ref } = object[key];
-    if ($ref) {
-      const definition = $ref.split("/")[2];
-      return { name: key, children: mapKeys(definitions[definition].properties, definitions) };
-    }
-    if (type === "object") return { name: key, children: mapKeys(properties, definitions) };
-    return { name: key };
-  });
+const mapKeys = (object: { [x: string]: any }, definitions: { [x: string]: any }): Array<any> => {
+  if (!object) return [];
+  return Object.keys(object)
+    .map((key) => {
+      const { properties, type, $ref } = object[key];
+      if ($ref) {
+        const definition = $ref.split("/")[2];
+        return { name: key, children: mapKeys(definitions[definition].properties, definitions) };
+      }
+      if (type === "object") return { name: key, children: mapKeys(properties, definitions) };
+      return { name: key };
+    })
+    .filter((item): item is NonNullable<typeof item> => item != null);
+};
 
 const fetchSchema = async () => {
   // select EXPO version
