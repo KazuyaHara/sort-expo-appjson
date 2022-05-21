@@ -3,7 +3,8 @@ import { default as v41 } from "./41.json";
 import { default as v42 } from "./42.json";
 import { default as v43 } from "./43.json";
 import { default as v44 } from "./44.json";
+import { default as v45 } from "./45.json";
 
 export type Schema = Array<{ name: string; children?: Array<{ name: string }> }>;
 
-export default { v40, v41, v42, v43, v44 };
+export default { v40, v41, v42, v43, v44, v45 };
