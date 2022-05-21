@@ -9,7 +9,8 @@ const selectSchema = (version: Version): Schema => {
   if (version === "41.0.0") return schemaList.v41;
   if (version === "42.0.0") return schemaList.v42;
   if (version === "43.0.0") return schemaList.v43;
-  return schemaList.v44;
+  if (version === "44.0.0") return schemaList.v44;
+  return schemaList.v45;
 };
 
 const sort = (object: ExpoObject["expo"], schema: Schema): ExpoObject["expo"] => {
