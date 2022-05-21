@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/KazuyaHara/sort-expo-appjson/compare/v1.0.1...v1.0.2) (2022-05-21)
+
+
+### Reverts
+
+* "chore: Expo SDK 45 ([#30](https://github.com/KazuyaHara/sort-expo-appjson/issues/30))" ([#31](https://github.com/KazuyaHara/sort-expo-appjson/issues/31)) ([fa73836](https://github.com/KazuyaHara/sort-expo-appjson/commit/fa738362e8fea9ddcf46172469706d95716ae4f5))
+
 ## [1.0.1](https://github.com/KazuyaHara/sort-expo-appjson/compare/v1.0.0...v1.0.1) (2022-02-17)
 
 
